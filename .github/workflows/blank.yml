@@ -5,6 +5,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: job 1
-        run: echo "job 1 run"
-      - name: job 2
-        run: echo "job 2 run"
+        run: |
+          echo "job 1 run"
+          echo "job 2 run"
